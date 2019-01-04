@@ -24,8 +24,8 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["kong.plugins.query-transformer.handler"] = "handler.lua",
-    ["kong.plugins.query-transformer.access"] = "access.lua",
-    ["kong.plugins.query-transformer.schema"] = "schema.lua"
+    ["kong.plugins.query-transformer.handler"] = "kong/plugins/query-transformer/handler.lua",
+    ["kong.plugins.query-transformer.access"] = "kong/plugins/query-transformer/access.lua",
+    ["kong.plugins.query-transformer.schema"] = "kong/plugins/query-transformer/schema.lua"
   }
 }
