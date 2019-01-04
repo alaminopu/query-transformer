@@ -18,6 +18,6 @@ function QueryTransformerHandler:access(config)
 end
 
 QueryTransformerHandler.PRIORITY = 799  -- request-transformer	801
-QueryTransformerHandler.VERSION = "1.0.0"
+QueryTransformerHandler.VERSION = "1.0.0-1"
 
 return QueryTransformerHandler
