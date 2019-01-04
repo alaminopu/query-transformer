@@ -6,8 +6,8 @@ version = "1.0.0-1"     -- renumber, must match the info in the filename of this
 -- supported_platforms = {"linux", "macosx"}
 
 source = {
-     url = "https://github.com/alaminopu/query-transformer.git"
-  -- tag = "0.1-1"
+     url = "git://github.com/alaminopu/query-transformer"
+     tag = "1.0.0"
 }
 
 description = {
